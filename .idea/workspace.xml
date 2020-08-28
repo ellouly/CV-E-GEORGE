@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a06fba9d-cedd-497b-856e-7b13787ac10e" name="Default Changelist" comment="" />
+    <list default="true" id="a06fba9d-cedd-497b-856e-7b13787ac10e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598606712664</updated>
-      <workItem from="1598606714149" duration="1321000" />
+      <workItem from="1598606714149" duration="17663000" />
     </task>
     <servers />
   </component>

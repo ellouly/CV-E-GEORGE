@@ -1524,7 +1524,7 @@ form :-ms-input-placeholder {
     color: #999;
 }
 
-/* Section/Article */
+/* Section/Article/Content */
 
 section, article {
     margin-bottom: 3em;
@@ -1532,6 +1532,16 @@ section, article {
 
 section > :last-child, section:last-child, article > :last-child, article:last-child {
     margin-bottom: 0;
+}
+
+.content {
+    border-top: solid 3px #f4f4f4;
+    padding-top: 1em;
+}
+
+.content li, h3 {
+    margin-bottom: 1em;
+    list-style: none;
 }
 
 header {
@@ -1711,7 +1721,7 @@ ol li {
 
 ul.feature-icons {
     list-style: none;
-    padding-left: 0;
+    padding-left: 1em;
 }
 
 @media screen and (max-width: 736px) {

@@ -397,6 +397,12 @@
 
 /* Features */
 
+.features {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
 .features article {
 	border-top: solid 3px #f4f4f4;
 	margin-bottom: 2.25em;
@@ -425,6 +431,10 @@
 	display: inline-block;
 	vertical-align: middle;
 	width: 50%;
+}
+
+.features article .inner > :last-child {
+	margin-bottom: 0;
 }
 
 .features article .inner h4 {

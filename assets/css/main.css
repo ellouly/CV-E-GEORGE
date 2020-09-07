@@ -1600,6 +1600,12 @@ header > p {
 
 /* Features */
 
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .features article {
     border-top: solid 3px #f4f4f4;
     margin-bottom: 2.25em;
@@ -1630,12 +1636,30 @@ header > p {
     width: 50%;
 }
 
+.features article .inner > :last-child {
+    margin-bottom: 0;
+}
+
 .features article .inner h4 {
     font-size: 1em;
 }
 
 .features article .inner p, i {
     font-size: 0.75em;
+}
+
+@media screen and (max-width: 768px) {
+    .features article .image {
+        display: block;
+        margin: 0 0 2.25em 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .features article .inner {
+        display: block;
+        width: 100%;
+    }
 }
 
 /* Button */
@@ -1915,9 +1939,14 @@ ul.feature-icons {
     #nav a span {
         display: none;
     }
-
 }
 
+@media screen and (max-width: 768px) {
+
+    #nav a {
+        font-size: 2.2em;
+    }
+}
 /* Wrapper */
 
 #wrapper {
